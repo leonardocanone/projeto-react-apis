@@ -12,7 +12,7 @@ export const StylePokedex = styled.div`
     justify-content: center;
     gap: 20px;
     padding: 0 40px;
-    transition-duration: 400ms;
+    /* transition-duration: 400ms; */
   }
 `;
 
@@ -24,5 +24,12 @@ export const MeusPokemons = styled.h1`
   padding-top: 40px;
   padding-bottom: 30px;
   padding-left: 40px;
-  transition-duration: 400ms;
+  /* transition-duration: 400ms; */
+
+  @media only screen and (max-width: 480px){
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    }
+
 `;

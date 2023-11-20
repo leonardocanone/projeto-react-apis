@@ -14,6 +14,15 @@ export const StyleCard = styled.div`
   margin: 20px 1px;
   color: #ffffff;
 
+  @media only screen and (max-width: 480px){
+    min-width: 360px;
+    }
+
+    @media only screen and (max-width: 375px){
+      height: 200px;
+      min-width: 340px;
+    }  
+
   h2 {
     color: white;
     font-size: 18px;
@@ -37,6 +46,7 @@ export const StyleCard = styled.div`
     color: inherit;
     color: white;
   }
+
 `;
 
 export const PokemonNumber = styled.p`
@@ -80,6 +90,13 @@ top: -60px;
 /* top: -50px; */
 right: 10px;
 z-index: 2;
+
+@media only screen and (max-width: 480px){
+  width: 170px;
+  height: 170px;
+  right: -17px;
+    }
+
 `
 
 export const CatchButton = styled.button`

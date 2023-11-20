@@ -21,7 +21,7 @@ export function Header() {
       setCapturar(true);
       setTimeout(() => {
         setCapturar(false);
-      }, 1100);
+      }, 1200);
     };
   
     const handleRemoveFromPokedexClick = () => {
@@ -30,7 +30,7 @@ export function Header() {
       setExcluir(true);
       setTimeout(() => {
         setExcluir(false);
-      }, 1100)
+      }, 1200)
     };
   
     const isInPokedex = () => {

@@ -46,7 +46,7 @@ const Statbar = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffc107;
+    background-color: #ffbf00;
     border-radius: 12px;
     height: 10%;
     font-size: 14px;
@@ -62,7 +62,7 @@ const Statfill = styled.div`
   border-radius: 10px;
   height: 100%;
   width: 50%; 
-  background-color: #4caf50;
+  background-color: #ff9900;
   text-align: center;
   color: black;
   font-size: 14.5px;
