@@ -53,6 +53,7 @@ export function Card(props) {
       </div>
       }
       {!isLoading && error && <h2>Ocorreu um erro. Tente novamente mais tarde.</h2>}
+
       <div>       
         <PokemonNumber>#{convertNumber(pokemon.id)}</PokemonNumber>
         <PokemonName>

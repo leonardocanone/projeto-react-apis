@@ -45,7 +45,7 @@ function App() {
       setCapturar(true);
       setTimeout(() => {
           setCapturar(false);
-        }, 1100);
+        }, 1300);
 
         localStorage.setItem('pokedex', JSON.stringify(newPokedex));
     }
@@ -63,7 +63,7 @@ function App() {
     setExcluir(true);
     setTimeout(() => {
           setExcluir(false);
-        }, 1100);
+        }, 1200);
 
         localStorage.setItem('pokedex', JSON.stringify(newPokedex));
   };

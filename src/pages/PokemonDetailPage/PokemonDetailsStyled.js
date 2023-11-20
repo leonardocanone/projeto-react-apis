@@ -24,16 +24,21 @@ export const Title = styled.h1`
   font-size: 45px;
   padding-top: 40px;
   padding-bottom: 30px;
-  padding-right: 74vw;
+  padding-right: 65vw;
   transition-duration: 400ms; 
   /* padding: 40px; */
 
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    padding-left: 40px;
+    }
+
   @media only screen and (min-width: 480px) and (max-width: 768px){
-    font-size: 40px;
+    font-size: 30px;
     }
 
   @media only screen and (max-width: 480px){
-    font-size: 20px;
+    font-size: 24px;
     }
 `
 
@@ -45,7 +50,7 @@ export const CardContainer = styled.div`
     height: 80vh;
     width: 90vw;
     border-radius: 38px;
-    background-color: #729F92;
+    /* background-color: #729F92; */
     padding: 20px;
     margin-bottom: 20px;
     gap: 40px;
@@ -76,7 +81,7 @@ export const CardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 220vh;
+    height: 180vh;
     width: 94vw;
     }
 
@@ -85,7 +90,16 @@ export const CardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 220vh;
+    height: 200vh;
+    width: 94vw;
+    }
+
+    @media only screen and (max-width: 375px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260vh;
     width: 94vw;
     }
 ;

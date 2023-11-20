@@ -31,13 +31,13 @@ export const StyleHeader = styled.header`
 
   
   @media only screen and (min-width: 480px) and (max-width: 768px){
-  width: 220px;
+  width: 250px;
   height: 100px;
   }
   
   @media only screen and (max-width: 480px){
-  width: 120px;
-  height: 46px;  
+  width: 130px;
+  height: 50px;  
     }
 
   }
@@ -66,10 +66,21 @@ export const StyleHeader = styled.header`
       letter-spacing: 0em;
     }
 
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+    height: 65px;
+    width: 180px;
+    margin-right: 40px;
+
+    p {
+    font-size: 24px;
+    }
+    }
+
     @media only screen and (min-width: 480px) and (max-width: 768px){
     height: 60px;
-    width: 180px;
-    margin-right: 28px;
+    width: 170px;
+    margin-right: 40px;
+
     p {
     font-size: 24px;
     }
@@ -77,8 +88,8 @@ export const StyleHeader = styled.header`
   
   @media only screen and (max-width: 480px){
     height: 40px;
-    width: 80px;
-    margin-right: 8px; 
+    width: 94px;
+    margin-right: 12px; 
 
   p {
     font-size: 16px;
@@ -109,6 +120,16 @@ export const StyleHeader = styled.header`
       text-decoration: underline;
     }
 
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+    height: 70px;
+    width: 220px;
+    margin-left: 8px;
+    
+    p {
+    font-size: 24px;
+    }
+    }
+
     @media only screen and (min-width: 480px) and (max-width: 768px){
     height: 70px;
     width: 220px;
@@ -122,7 +143,7 @@ export const StyleHeader = styled.header`
     @media only screen and (max-width: 480px){
     height: 40px;
     width: 80px;
-    margin-left: 8px;
+    margin-left: 18px;
 
     p {
     font-size: 14px;
@@ -191,10 +212,20 @@ export const StyleHeader = styled.header`
       letter-spacing: 0em;
     }
 
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+    height: 65px;
+    width: 180px;
+    margin-right: 40px;
+
+    p {
+    font-size: 24px;
+    }
+    }
+
     @media only screen and (min-width: 480px) and (max-width: 768px){
     height: 60px;
-    width: 180px;
-    margin-right: 18px;
+    width: 170px;
+    margin-right: 40px;
     
     p {
     font-size: 24px;
@@ -203,8 +234,8 @@ export const StyleHeader = styled.header`
   
   @media only screen and (max-width: 480px){
     height: 40px;
-    width: 80px;
-    margin-right: 8px; 
+    width: 95px;
+    margin-right: 12px; 
 
   p {
     font-size: 16px;
@@ -236,10 +267,21 @@ export const StyleHeader = styled.header`
       letter-spacing: 0em;
     }
 
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+    height: 65px;
+    width: 180px;
+    margin-right: 40px;
+
+    p {
+    font-size: 24px;
+    }
+    }
+
     @media only screen and (min-width: 480px) and (max-width: 768px){
     height: 60px;
-    width: 180px;
-    margin-right: 18px;
+    width: 170px;
+    margin-right: 40px;
+    
     p {
     font-size: 24px;
     }
@@ -247,8 +289,8 @@ export const StyleHeader = styled.header`
   
   @media only screen and (max-width: 480px){
     height: 40px;
-    width: 80px;
-    margin-right: 8px; 
+    width: 95px;
+    margin-right: 12px; 
 
   p {
     font-size: 16px;
