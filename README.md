@@ -21,7 +21,7 @@ Os principais conteúdos estudados neste projeto foram:
 - Design Systems
 - Estado Global
 
-###
+##
 # **Requisitos gerais do projeto + Prints do projeto**
 - ## **Gerais:**
 	- [ ] O site deve ter 3 páginas: Home, Pokédex e Detalhes;
